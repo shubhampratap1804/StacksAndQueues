@@ -11,6 +11,10 @@ public class Stacks {
 	public void push(INode myNode) {
 		myLinkedList.add(myNode);
 	}
+	
+	public void enqueue(INode myNode) {
+		myLinkedList.append(myNode);
+	}
 
 	public INode peak() {
 		return myLinkedList.head;
