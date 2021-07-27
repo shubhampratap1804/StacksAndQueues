@@ -1,6 +1,6 @@
 package com.bridgelabz;
 
-public class UC1TestCase {
+public class UC2TestCase {
 
 	public static void main(String[] args) {
 		
@@ -12,6 +12,12 @@ public class UC1TestCase {
         myStack.push(myFirstNode);
         myStack.push(mySecondNode);
         myStack.push(myThirdNode);
+        
+        System.out.println("Peak node is: "+myStack.peak());
+        myStack.popStack();
+        
+        System.out.println("Stack after pop operation is: ");
         myStack.printStack();
+        
 	}
 }
